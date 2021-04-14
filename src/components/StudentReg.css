@@ -88,3 +88,44 @@
    width: 20%;
    margin-bottom: 50px;
 }
+
+/*For mobile use only*/
+@media screen and (max-width:576px){
+    .Student__image{
+        width: 400px;
+        height: auto;
+        margin-left: 0px;
+        margin-right: auto;
+    }
+    .Student__Hello-heading{
+        margin-left: 0px;
+        font-size: 27px;
+        text-align: center;
+    }
+    .Student__heading{
+        margin-left:0px ;
+        font-size: 27px;
+        text-align: center;
+    }
+    .Student__Subject-heading{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .Student__property{
+        margin-left: 14px;
+        font-size: 15px;
+    }
+    .Student__Subject{
+        font-size: 15px;
+    }
+}
+
+/*For small and medium devices*/
+@media(min-width: 576px) and (max-width: 800px){
+
+}
+
+/*For medium and large devices*/
+@media(min-width:800px) and (max-width: 1200px){
+
+}
