@@ -122,10 +122,29 @@
 
 /*For small and medium devices*/
 @media(min-width: 576px) and (max-width: 800px){
+    .Student__image{
+        width: 426px;
+    }
+    .Student__Hello-heading{
+        font-size: 30px;
+    }
+    .Student__heading{
+        font-size: 30px;
+    }
+    .Student__Subject-heading{
+        font-size: 15px;
+    }
+    .Student__property{
+        font-size: 15px;
+    }
 
 }
 
 /*For medium and large devices*/
 @media(min-width:800px) and (max-width: 1200px){
+    .Student__image{
+        width: 539px;
+        height: auto;
+    }
 
 }
